@@ -1,0 +1,82 @@
+/*	FONT IMPORTS*/
+@font-face{
+	font-family: Ubuntu-Regular;
+	src: url(fonts2/Ubuntu-Regular.ttf);
+}
+@font-face{
+	font-family: Oswald-Regular;
+	src: url(fonts2/Oswald-Regular.ttf);
+}
+@font-face{
+	font-family: OpenSans-CondLight;
+	src: url(fonts/OpenSans-CondLight.ttf);
+}
+@font-face{
+	font-family: FjallaOne-Regular;
+	src: url(fonts/FjallaOne-Regular.ttf);
+}
+
+
+
+html, body{
+
+}
+
+/*.menu > li > a{
+	padding:10px 15px
+}
+.menu > li > a:hover, .menu li#active{
+	background-color:#4c700b !important;
+	color:#679b08 !important
+}*/
+
+.navigation > li > a{
+	color: aquamarine;
+	background-color: #f5f5f5;
+	opacity: 1;
+	cursor: pointer;
+}
+.navigation > li > a:hover,
+.navigation li#active{
+	color: aquamarine;
+	background-color: #f5f5f5;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.sign-up{
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 130%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.sign-up:hover{
+	background-color: #4CAF50;
+    color: white;
+}
+.sign-in{
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 130%;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.sign-in:hover{
+	background-color: #4CAF50;
+    color: white;
+}
